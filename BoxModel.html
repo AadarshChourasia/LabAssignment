@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head>
+        <title>CSS Box Model</title>
+        <style>
+            .alpha {
+                font-size:36px;
+                font-weight:bold;
+                Text-align:center;
+                color: red;
+            }
+            .class1 {
+                margin-left:40px;
+                border:20px solid darkgreen;
+                width:300px;
+                height:200px;
+                text-align:center;
+                padding:40px;
+                background-color: lightgray;
+            }
+            .class2 {
+                font-size:42px;
+                font-weight:bold;
+                color:#009900;
+                margin-top:60px;
+                background-color:lightgray;
+            }
+            .class3 {
+                font-size:18px;
+                font-weight:bold;
+                background-color:lightgray;
+            }
+
+            body{
+                background-color: black;
+            }
+
+            table, th, td{
+                color: white;
+                border: 1px solid yellow;
+            }
+
+            h1{
+                color: white;
+                border: 2px solid yellowgreen;
+                border-radius: 15px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "alpha">CSS Box Model</div>
+        <div class = "class1">
+            <div class = "class2">Aadarsh Chourasia</div>
+            <div class = "class3">My project on Box Model</div>
+        </div>
+        <br>
+        <h1>Contents of CSS Box Model</h1>
+     <table>
+        <tr>
+            <th>1st Layer</th>
+            <th>2nd Layer</th>
+            <th>3rd layer</th>
+            <th>4th layer</th>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td>Padding</td>
+            <td>Border</td>
+            <td>Margin</td>
+        </tr>
+        <tr>
+            <td>The things written behave as content</td>
+            <td>The padding layer wraps our content</td>
+            <td>The Border layer wraps our content + gives it padding</td>
+            <td>The Margin layer wraps our content + padding + border</td>
+        </tr>
+    </table>
+    </body>
+</html>     
